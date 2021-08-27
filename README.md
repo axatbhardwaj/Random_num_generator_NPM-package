@@ -4,6 +4,8 @@ This Package returns a Random Number.
 
 ## Installation
 
+npm i @axatbhardwaj/randnum
+
 # what is this ?
 
 This is a package which generates a random number ,
