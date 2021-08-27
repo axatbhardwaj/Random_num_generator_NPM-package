@@ -1,4 +1,3 @@
-
 function getRandom(n1 = 10, n2 = null) {
   // 1
   if (n2 === null) {
@@ -12,7 +11,7 @@ function getRandom(n1 = 10, n2 = null) {
       const t = new Date().getMilliseconds() * count; //1
       const t1 = count * new Date().getSeconds();
       const t2 = new Date().getUTCMilliseconds(); //1
-      x = ((t * t1 * count) + (1000 * n1) / (n1 / count)-(n1*1))*t2;
+      x = (t * t1 * count + (1000 * n1) / (n1 / count) - n1 * 1) * t2;
       while (taa < n1) {
         checker = checker * 10 + 9;
         taa++;
@@ -33,7 +32,7 @@ function getRandom(n1 = 10, n2 = null) {
       const t = new Date().getMilliseconds(); //1
       const t1 = new Date().getSeconds(); //1
       const t2 = new Date().getUTCMilliseconds(); //1
-      let xx = ((t + t1 / t2) / n1)*(t2/t1); //1
+      let xx = ((t + t1 / t2) / n1) * (t2 / t1); //1
       xx = ~~xx;
       if (xx > n1 && xx < n2) {
         return xx;
@@ -42,3 +41,4 @@ function getRandom(n1 = 10, n2 = null) {
     }
   }
 }
+module.exports = getRandom();
