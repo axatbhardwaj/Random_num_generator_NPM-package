@@ -41,4 +41,4 @@ function getRandom(n1 = 10, n2 = null) {
     }
   }
 }
-module.exports = getRandom();
+module.exports = getRandom;

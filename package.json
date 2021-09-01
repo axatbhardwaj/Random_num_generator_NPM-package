@@ -1,5 +1,25 @@
 {
     "name": "@axatbhardwaj/randnum",
-    "version": "1.0.6",
-    "main" :"random.js"
+    "version": "1.0.8",
+    "description": "Get a random integer number quickly ",
+    "main" :"random.js",
+    "bin": "random.js",
+    "path": "random.js",
+    "scripts": {
+        "random": "random.js"
+    },
+    "keywords":
+        [
+        "random",
+        "random integer",
+        "random number"
+        ],
+    "author": "Axat bhardwaj",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/axatbhardwaj/Random_num_generator_NPM-package",
+        "homepage": "https://github.com/axatbhardwaj/Random_num_generator_NPM-package/blob/main/README.md"
+    }
+
 }
