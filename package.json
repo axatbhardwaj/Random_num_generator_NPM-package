@@ -1,6 +1,6 @@
 {
     "name": "@axatbhardwaj/randnum",
-    "version": "1.0.10",
+    "version": "1.0.12",
     "description": "Get a random integer number quickly ",
     "main" :"random.js",
     "bin": "random.js",
