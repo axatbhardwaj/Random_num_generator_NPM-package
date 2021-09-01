@@ -1,6 +1,6 @@
 {
     "name": "@axatbhardwaj/randnum",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "description": "Get a random integer number quickly ",
     "main" :"random.js",
     "bin": "random.js",
@@ -14,7 +14,7 @@
         "random integer",
         "random number"
         ],
-    "author": "Axat bhardwaj",
+    "author": "Axat Bhardwaj",
     "license": "MIT",
     "repository": {
         "type": "git",

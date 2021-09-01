@@ -33,7 +33,7 @@ function getRandom(n1 = 10, n2 = null) {
       const t1 = new Date().getSeconds(); //1
       const t2 = new Date().getUTCMilliseconds(); //1
       let xx = ((t + t1 / t2) / n1) * (t2 / t1); //1
-      xx = ~~xx;
+      xx = ~~xx + 1;
       if (xx > n1 && xx < n2) {
         return xx;
         i = 0;
