@@ -16,7 +16,7 @@ function getRandom(n1 = 10, n2 = null) {
         checker = checker * 10 + 9;
         taa++;
       }
-      console.log('current x =', x);
+      // console.log('current x =', x);
       if (checker < x && x !== NaN && x !== Infinity) {
         let xzx = x.toString();
         x = xzx.slice(0, n1);
