@@ -10,7 +10,7 @@ npm i @axatbhardwaj/randnum
 
 This is a package which generates a random number ,
 
-if not arguments are passed it will generate a random no. of 10 digits
+if no arguments are passed it will generate a random no. of 10 digits
 Can define range i.e getRandom(1,10000) - will return number between that range
 If single digit is entered i.e getRandom(x) - will return x digit Number
 
